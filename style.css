@@ -15,6 +15,7 @@ html {
   --white-color: #fff;
   --black-color: #000;
   --first-color: #333333;
+  --second-color: #bdbdbd;
 }
 
 ul,
@@ -28,7 +29,7 @@ a {
 
 /*! Navbar styles */
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,22 +38,106 @@ nav {
   padding: 30px 0;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   gap: 2.5rem;
 }
 
-nav a {
-  font-size: 1.2rem;
+header nav a {
+  text-transform: uppercase;
   color: var(--first-color);
   font-weight: bold;
 }
 
-nav .menu-bars {
+header nav .menu-bars {
   display: none;
 }
 
-nav .active {
+header nav .active {
   border-top: 1px solid var(--first-color);
   border-bottom: 1px solid var(--first-color);
+}
+
+/*! Main*/
+
+main .nurtown {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+main .nurtown-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 17.36rem;
+  margin: auto;
+}
+
+main .nurtown-head div {
+  font-size: 4rem;
+}
+
+main .nurtown-first-title {
+  color: var(--second-color);
+}
+
+main .nurtown-second-title {
+  font-weight: 700;
+}
+
+main .nurtown-body {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+main .nurtown-vektor {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main .nurtown-line {
+  position: absolute;
+  top: 59.5%;
+  left: 28%;
+}
+
+main .nurtown-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+main .nurtown-footer div {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--second-color);
+}
+
+main .nurtown-img img {
+  position: relative;
+}
+
+main .nurtown-look {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--white-color);
+  gap: 1rem;
+  width: 15rem;
+  margin: auto;
+  bottom: -36%;
+  padding: 2rem 2.5rem;
+}
+
+main .nurtown-first-look {
+  color: var(--first-color);
+  text-transform: uppercase;
 }
