@@ -16,6 +16,7 @@ html {
   --black-color: #000;
   --first-color: #333333;
   --second-color: #bdbdbd;
+  --thirdh-color: #fbfbfb;
 }
 
 ul,
@@ -124,20 +125,66 @@ main .nurtown-img img {
   position: relative;
 }
 
-main .nurtown-look {
+main .nurtown-look button {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 1rem;
   position: absolute;
   background-color: var(--white-color);
-  gap: 1rem;
   width: 15rem;
   margin: auto;
   bottom: -36%;
   padding: 2rem 2.5rem;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
 }
 
-main .nurtown-first-look {
-  color: var(--first-color);
+main .team {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--thirdh-color);
+  width: 73.125rem;
+  height: 29.1875rem;
+  margin: auto;
+  padding: 3rem 2.5rem 0 5rem;
+  margin-top: 10rem;
+  z-index: -1;
+}
+
+main .team-img {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  z-index: 1;
+}
+
+main .team-column-img,
+.team-column-img img {
+  margin-top: 2rem;
+}
+
+main .team-head {
+  font-size: 4rem;
+  color: var(--second-color);
+}
+
+main .team-body {
+  line-height: 1.56rem;
+  margin-top: 2rem;
+}
+
+main .team-footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--white-color);
+  width: 17rem;
+  margin-top: 2rem;
+  padding: 2rem 2.5rem;
+  border: none;
   text-transform: uppercase;
+  font-size: 1.1rem;
 }
