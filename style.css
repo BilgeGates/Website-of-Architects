@@ -279,6 +279,24 @@ main .new-project-more button {
   border: none;
 }
 
-main .new-project-more img {
-  z-index: 2;
+main .project-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 71.3rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main .project-button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 2rem;
+  width: 15rem;
 }
