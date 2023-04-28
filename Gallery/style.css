@@ -15,6 +15,9 @@ html {
   --white-color: #fff;
   --black-color: #000;
   --first-color: #333333;
+  --second-color: #bdbdbd;
+  --thirdh-color: #333333;
+  --fourth-color: #bdbdbd;
 }
 
 ul,
@@ -56,4 +59,76 @@ header nav .menu-bars {
 header nav .active {
   border-top: 1px solid var(--first-color);
   border-bottom: 1px solid var(--first-color);
+}
+
+/*! Main */
+
+main .gallery {
+  width: 75rem;
+  margin: auto;
+}
+
+main .gallery-first-head,
+.gallery-second-head {
+  font-size: 4rem;
+}
+
+main .gallery-first-head {
+  color: var(--second-color);
+}
+
+main .gallery-second-head {
+  color: var(--thirdh-commit);
+}
+
+main hr {
+  margin: 2rem 0;
+}
+
+main .gallery-img {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 2.33rem;
+}
+
+main .gallery-description {
+  position: absolute;
+  top: 24.88686%;
+  width: 13.125rem;
+  height: 7.5rem;
+  padding: 1rem;
+  background-color: var(--fourth-color);
+}
+
+main .gallery-panel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+main .gallery-selected {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main .gallery-first-select,
+.gallery-second-select {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main .gallery-first-select {
+  color: var(--thirdh-color);
+}
+
+main .gallery-second-select {
+  color: var(--second-color);
+}
+
+main .gallery-vektor {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
