@@ -16,8 +16,9 @@ html {
   --black-color: #000;
   --first-color: #333333;
   --second-color: #bdbdbd;
-  --thirdh-color: #333333;
-  --fourth-color: #bdbdbd;
+  --thirdh-color: #fbfbfb;
+  --fourth-color: #333333;
+  --fifth-color: #2c2c2c;
 }
 
 ul,
@@ -30,7 +31,7 @@ a {
   color: var(--white-color);
 }
 
-/*! Navbar styles */
+/*! Header styles */
 
 header nav {
   display: flex;
@@ -78,7 +79,7 @@ main .gallery-first-head {
 }
 
 main .gallery-second-head {
-  color: var(--thirdh-commit);
+  color: var(--fourth-color);
 }
 
 main hr {
@@ -98,7 +99,7 @@ main .gallery-description {
   width: 13.125rem;
   height: 7.5rem;
   padding: 1rem;
-  background-color: var(--fourth-color);
+  background-color: var(--thirdh-color);
 }
 
 main .gallery-panel {
@@ -120,7 +121,7 @@ main .gallery-first-select,
 }
 
 main .gallery-first-select {
-  color: var(--thirdh-color);
+  color: var(--first-color);
 }
 
 main .gallery-second-select {
@@ -131,4 +132,47 @@ main .gallery-vektor {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/*! Footer*/
+
+footer {
+  background-color: var(--fifth-color);
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 75rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}
+
+footer .information-head,
+.footer-contact-head,
+.media-head {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+footer .information-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer .contact-about {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
