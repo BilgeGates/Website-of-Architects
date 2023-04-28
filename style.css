@@ -19,6 +19,7 @@ html {
   --thirdh-color: #fbfbfb;
   --fourth-color: #f3f3f3;
   --fifth-color: #c30000;
+  --sixth-color: #2c2c2c;
 }
 
 ul,
@@ -28,6 +29,7 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--white-color);
 }
 
 /*! Navbar styles */
@@ -374,6 +376,7 @@ main .contact-body {
 main .contact-footer {
   width: 20rem;
   padding: 0 2rem;
+  margin-top: 2rem;
 }
 
 main .contact-footer button {
@@ -386,4 +389,45 @@ main .contact-footer button {
   width: 13.875rem;
   height: 4.4375rem;
   color: var(--white-color);
+}
+
+footer {
+  background-color: var(--sixth-color);
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 75rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}
+
+footer .information-head,
+.footer-contact-head,
+.media-head {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+footer .information-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer .contact-about {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
