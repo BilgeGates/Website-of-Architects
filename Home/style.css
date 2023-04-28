@@ -391,6 +391,8 @@ main .contact-footer button {
   color: var(--white-color);
 }
 
+/*! Footer*/
+
 footer {
   background-color: var(--sixth-color);
 }
