@@ -1,0 +1,203 @@
+/*! All styles*/
+
+/** Page styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Html styles */
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/** Colors*/
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --first-color: #333333;
+  --second-color: #bdbdbd;
+  --thirdh-color: #fbfbfb;
+  --fourth-color: #2c2c2c;
+  --fifth-color: #f2f2f2;
+  --sixth-color: #f3f3f3;
+  --seventh-color: #c8c8c880;
+  --eighth-color: #4f4f4f;
+}
+
+/** List styles */
+
+ul,
+li {
+  list-style: none;
+}
+
+/** Link styles */
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+/** Button styles */
+
+button {
+  cursor: pointer;
+}
+
+/*! Header styles */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75rem;
+  margin: auto;
+  padding: 30px 0;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: var(--first-color);
+  font-weight: bold;
+}
+
+header nav .menu-bars {
+  display: none;
+}
+
+header nav .active {
+  border-top: 1px solid var(--first-color);
+  border-bottom: 1px solid var(--first-color);
+}
+
+/*! Main styles*/
+
+main .success-checked {
+  width: 75rem;
+  margin: auto;
+}
+
+main .success-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10rem;
+  margin: auto;
+  margin-top: 3rem;
+  position: relative;
+}
+
+main .success-front {
+  z-index: 1;
+  position: absolute;
+  top: 7%;
+  left: 13%;
+}
+
+main .success-bg {
+  z-index: -1;
+}
+
+main .vektor {
+  z-index: 2;
+  position: absolute;
+  top: 14%;
+  left: 23%;
+}
+
+main .success-head {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  font-weight: 700;
+  margin-top: 2rem;
+  padding: 0 0 0 1rem;
+}
+
+main .success-body {
+  width: 20rem;
+  margin: auto;
+  margin-left: -5rem;
+  margin-top: 2rem;
+  color: var(--eighth-color);
+  font-weight: 600;
+}
+
+main .success-footer {
+  margin-top: 2rem;
+  margin-left: -8rem;
+}
+
+main .success-footer button {
+  width: 25rem;
+  height: 2.625rem;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+/*! Footer styles*/
+
+footer {
+  background-color: var(--fourth-color);
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 75rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}
+
+footer .information-head,
+.footer-contact-head,
+.media-head {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+footer .information-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer .contact-about {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+footer .footer-hr {
+  width: 100%;
+  background-color: var(--white-color);
+  height: 0.01rem;
+  opacity: 10%;
+}
+
+footer .footer-copyright {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--seventh-color);
+}
