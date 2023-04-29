@@ -15,6 +15,11 @@ html {
   --white-color: #fff;
   --black-color: #000;
   --first-color: #333333;
+  --second-color: #bdbdbd;
+  --thirdh-color: #fbfbfb;
+  --fourth-color: #333333;
+  --fifth-color: #2c2c2c;
+  --sixth-color: #f2f2f2;
 }
 
 ul,
@@ -56,4 +61,96 @@ header nav .menu-bars {
 header nav .active {
   border-top: 1px solid var(--first-color);
   border-bottom: 1px solid var(--first-color);
+}
+
+/*! Main */
+
+main .projects {
+  width: 75rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main .project-first-head,
+.project-second-head {
+  font-size: 4rem;
+}
+
+main .project-first-head {
+  color: var(--second-color);
+}
+
+main .project-second-head {
+  color: var(--fourth-color);
+}
+
+main .project {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  background-color: var(--thirdh-color);
+}
+
+main hr {
+  margin: 2rem 0;
+}
+
+main .project-title {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  color: var(--second-color);
+}
+
+main .project-body {
+  margin-top: 2rem;
+  line-height: 1.5625rem;
+}
+
+main .project-footer {
+  margin-top: 3rem;
+}
+
+main .project-footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 13.875rem;
+  height: 4.4375rem;
+  text-transform: uppercase;
+  color: var(--first-color);
+  background-color: var(--white-color);
+  border: none;
+}
+
+main .project-panel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+main .project-selected {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main .project-first-select,
+.project-second-select {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main .project-first-select {
+  color: var(--first-color);
+}
+
+main .project-second-select {
+  color: var(--second-color);
+}
+
+main .project-vektor {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
