@@ -1,15 +1,21 @@
 /*! All styles*/
 
+/** Page styles*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/** Html styles*/
+
 html {
   font-size: 16px;
   font-family: sans-serif;
 }
+
+/** Colors*/
 
 :root {
   --white-color: #fff;
@@ -22,14 +28,24 @@ html {
   --sixth-color: #2c2c2c;
 }
 
+/** List styles*/
+
 ul,
 li {
   list-style: none;
 }
 
+/** Link styles*/
+
 a {
   text-decoration: none;
   color: var(--white-color);
+}
+
+/** Button styles*/
+
+button {
+  cursor: pointer;
 }
 
 /*! Header styles*/

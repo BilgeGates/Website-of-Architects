@@ -1,15 +1,21 @@
 /*! All styles*/
 
+/** Page styles*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/** Html styles */
+
 html {
   font-size: 16px;
   font-family: sans-serif;
 }
+
+/** Colors*/
 
 :root {
   --white-color: #fff;
@@ -17,19 +23,28 @@ html {
   --first-color: #333333;
   --second-color: #bdbdbd;
   --thirdh-color: #fbfbfb;
-  --fourth-color: #333333;
-  --fifth-color: #2c2c2c;
-  --sixth-color: #f2f2f2;
+  --fourth-color: #2c2c2c;
+  --fifth-color: #f2f2f2;
 }
+
+/** List styles */
 
 ul,
 li {
   list-style: none;
 }
 
+/** Link styles */
+
 a {
   text-decoration: none;
   color: var(--white-color);
+}
+
+/** Button styles */
+
+button {
+  cursor: pointer;
 }
 
 /*! Header styles */
@@ -73,6 +88,7 @@ main .certificates {
 
 main .certificate-first-head,
 .certificate-second-head {
+  text-transform: uppercase;
   font-size: 4rem;
 }
 
@@ -81,7 +97,8 @@ main .certificate-first-head {
 }
 
 main .certificate-second-head {
-  color: var(--fourth-color);
+  color: var(--first-color);
+  font-weight: 700;
 }
 
 main .certificate-img {
@@ -125,7 +142,7 @@ main .certificate-vektor {
 /*! Footer styles*/
 
 footer {
-  background-color: var(--fifth-color);
+  background-color: var(--fourth-color);
 }
 
 footer .footer {
