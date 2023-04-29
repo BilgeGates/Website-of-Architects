@@ -63,6 +63,8 @@ header nav .active {
   border-bottom: 1px solid var(--first-color);
 }
 
+/*! Main*/
+
 main .certificates {
   width: 75rem;
   margin: auto;
@@ -118,4 +120,47 @@ main .certificate-vektor {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/*! Footer*/
+
+footer {
+  background-color: var(--fifth-color);
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 75rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}
+
+footer .information-head,
+.footer-contact-head,
+.media-head {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+footer .information-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer .contact-about {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
