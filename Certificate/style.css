@@ -62,3 +62,60 @@ header nav .active {
   border-top: 1px solid var(--first-color);
   border-bottom: 1px solid var(--first-color);
 }
+
+main .certificates {
+  width: 75rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main .certificate-first-head,
+.certificate-second-head {
+  font-size: 4rem;
+}
+
+main .certificate-first-head {
+  color: var(--second-color);
+}
+
+main .certificate-second-head {
+  color: var(--fourth-color);
+}
+
+main .certificate-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .certificate-panel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+main .certificate-selected {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main .certificate-first-select,
+.certificate-second-select {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main .certificate-first-select {
+  color: var(--first-color);
+}
+
+main .certificate-second-select {
+  color: var(--second-color);
+}
+
+main .certificate-vektor {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
