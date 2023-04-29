@@ -38,7 +38,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 75rem;
   margin: auto;
   padding: 30px 0;
 }
@@ -63,7 +63,7 @@ header nav .active {
   border-bottom: 1px solid var(--first-color);
 }
 
-/*! Main */
+/*! Main styles */
 
 main .projects {
   width: 75rem;
@@ -155,7 +155,7 @@ main .project-vektor {
   gap: 2rem;
 }
 
-/*! Footer*/
+/*! Footer styles*/
 
 footer {
   background-color: var(--fifth-color);
