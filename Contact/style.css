@@ -25,6 +25,7 @@ html {
   --thirdh-color: #fbfbfb;
   --fourth-color: #2c2c2c;
   --fifth-color: #f2f2f2;
+  --sixth-color: #c8c8c880;
 }
 
 /** List styles */
@@ -106,7 +107,7 @@ main .contact-second-head {
 
 main .contact-body,
 .contact-footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 main .contact-body .contact-first-box {
@@ -137,14 +138,14 @@ main .contact-body .contact-thirdh-body a {
   font-weight: 300;
 }
 
-main .contact-footer button {
+main .contact-footer a {
   width: 13.875rem;
   height: 4.4375rem;
-  margin-top: 2rem;
+  padding: 1rem 2rem;
   background-color: var(--first-color);
-  border: none;
-  color: var(--white-color);
 }
+
+/*! Footer styles*/
 
 footer {
   background-color: var(--fourth-color);
@@ -185,4 +186,17 @@ footer .social-icons {
   gap: 1rem;
   margin-top: 2rem;
   font-size: 1.3rem;
+}
+
+footer .footer-hr {
+  width: 100%;
+  background-color: var(--white-color);
+  height: 0.01rem;
+  opacity: 10%;
+}
+
+footer .footer-copyright {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--sixth-color);
 }

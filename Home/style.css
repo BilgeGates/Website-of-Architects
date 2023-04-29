@@ -26,6 +26,7 @@ html {
   --fourth-color: #f3f3f3;
   --fifth-color: #c30000;
   --sixth-color: #2c2c2c;
+  --seventh-color: #c8c8c880;
 }
 
 /** List styles*/
@@ -448,4 +449,17 @@ footer .social-icons {
   gap: 1rem;
   margin-top: 2rem;
   font-size: 1.3rem;
+}
+
+footer .footer-hr {
+  width: 100%;
+  background-color: var(--white-color);
+  height: 0.01rem;
+  opacity: 10%;
+}
+
+footer .footer-copyright {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--seventh-color);
 }
