@@ -1,0 +1,59 @@
+/*! All styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --first-color: #333333;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+/*! Header styles */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: var(--first-color);
+  font-weight: bold;
+}
+
+header nav .menu-bars {
+  display: none;
+}
+
+header nav .active {
+  border-top: 1px solid var(--first-color);
+  border-bottom: 1px solid var(--first-color);
+}
