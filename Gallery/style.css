@@ -207,3 +207,70 @@ footer .footer-copyright {
   padding: 2rem 0;
   color: var(--sixth-color);
 }
+
+/* ! Phone Screen */
+
+@media only screen and (max-width: 425px) {
+  header nav {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-bars {
+    display: block;
+  }
+
+  main .gallery {
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .gallery-head {
+    text-align: center;
+  }
+
+  main .gallery-img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main .gallery-description {
+    top: 4%;
+  }
+
+  main .gallery-panel {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  footer .footer {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  footer .information {
+    text-align: center;
+  }
+
+  footer .footer-contact-head {
+    text-align: center;
+  }
+
+  footer .contact-list {
+    text-align: center;
+  }
+}

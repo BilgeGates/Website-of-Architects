@@ -71,7 +71,7 @@ header nav a {
   font-weight: bold;
 }
 
-header nav .menu-bars {
+header .menu-bars {
   display: none;
 }
 
@@ -462,4 +462,187 @@ footer .footer-copyright {
   text-align: center;
   padding: 2rem 0;
   color: var(--seventh-color);
+}
+
+/* ! Phone Screen */
+
+@media only screen and (max-width: 425px) {
+  header nav {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-bars {
+    display: block;
+  }
+
+  main .nurtown {
+    width: 95%;
+    margin: auto;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  main .nurtown-info {
+    margin-top: 2rem;
+  }
+
+  main .nurtown-head-img img {
+    width: 100%;
+  }
+
+  main .nurtown-look {
+    position: absolute;
+    bottom: -17%;
+    left: 2.5%;
+  }
+
+  main .nurtown-body,
+  .nurtown-footer {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .nurtown-line {
+    display: none;
+  }
+
+  main .team {
+    flex-direction: column;
+    width: 95%;
+    height: 35%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 0;
+  }
+
+  main .team-img {
+    flex-direction: column;
+  }
+
+  main .team-info {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  main .goals {
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  main .goal-head {
+    text-align: center;
+  }
+
+  main .main-goals {
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 3rem;
+  }
+
+  main .goal-two {
+    align-items: center;
+  }
+
+  main .goal {
+    width: 95%;
+    margin: auto;
+  }
+
+  main .projects {
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  main .projects-img {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .projects-img img {
+    width: 100%;
+  }
+
+  main .new-project-title {
+    top: 2%;
+    left: -25%;
+    font-size: 2.5rem;
+  }
+
+  main .new-project-more {
+    top: 8%;
+  }
+
+  main .project-button {
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: flex-start;
+  }
+
+  main .contact {
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  main .contact-head {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  main .contact-us {
+    flex-direction: column-reverse;
+  }
+
+  main .contact-form {
+    margin-top: 2rem;
+  }
+
+  main .contact-end {
+    margin: 2rem 0 0 0;
+  }
+
+  main .contact-footer {
+    width: 98%;
+    margin: auto;
+  }
+
+  main .contact-img img {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  footer .footer {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  footer .information {
+    text-align: center;
+  }
+
+  footer .footer-contact-head {
+    text-align: center;
+  }
+
+  footer .contact-list {
+    text-align: center;
+  }
 }

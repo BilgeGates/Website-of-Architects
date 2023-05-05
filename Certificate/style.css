@@ -195,3 +195,84 @@ footer .footer-copyright {
   padding: 2rem 0;
   color: var(--sixth-color);
 }
+
+/* ! Phone Screen */
+
+@media only screen and (max-width: 425px) {
+  header nav {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-bars {
+    display: block;
+  }
+
+  main .certificates {
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .certificate-head {
+    text-align: center;
+  }
+
+  main .certificate-first-head,
+  .certificate-second-head {
+    font-size: 3rem;
+  }
+
+  main .certificate-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .project-head {
+    text-align: center;
+  }
+
+  main .project-img img {
+    width: 100%;
+  }
+
+  main .project-panel {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  main .certificate-panel {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  footer .footer {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  footer .information {
+    text-align: center;
+  }
+
+  footer .footer-contact-head {
+    text-align: center;
+  }
+
+  footer .contact-list {
+    text-align: center;
+  }
+}

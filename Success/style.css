@@ -102,7 +102,7 @@ main .success-front {
   z-index: 1;
   position: absolute;
   top: 7%;
-  left: 13%;
+  left: 14.5%;
 }
 
 main .success-bg {
@@ -112,8 +112,8 @@ main .success-bg {
 main .vektor {
   z-index: 2;
   position: absolute;
-  top: 14%;
-  left: 23%;
+  top: 15%;
+  left: 26%;
 }
 
 main .success-head {
@@ -200,4 +200,52 @@ footer .footer-copyright {
   text-align: center;
   padding: 2rem 0;
   color: var(--seventh-color);
+}
+
+/* ! Phone Screen */
+
+@media only screen and (max-width: 425px) {
+  header nav {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-bars {
+    display: block;
+  }
+
+  main .success-checked {
+    width: 95%;
+    margin: auto;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  footer .footer {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  footer .information {
+    text-align: center;
+  }
+
+  footer .footer-contact-head {
+    text-align: center;
+  }
+
+  footer .contact-list {
+    text-align: center;
+  }
 }
